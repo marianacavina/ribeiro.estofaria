@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Ribeiro Estofaria</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- JS -->
+  <script src="script.js" defer></script>
+
+  <!-- CSS EXTRA PARA CENTRALIZAR (PODE DEIXAR AQUI) -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    section {
+      min-height: calc(100vh - 100px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .conteudo-central {
+      max-width: 900px;
+    }
+
+    .conteudo-central img {
+      max-width: 450px;
+      width: 100%;
+      border-radius: 12px;
+      margin: 30px 0;
+    }
+
+    .titulo {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .destaque {
+      color: #f5c400;
+    }
+
+    nav {
+      position: absolute;
+      top: 90px;
+      right: 20px;
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      display: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    nav a {
+      display: block;
+      text-decoration: none;
+      color: #000;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .menu-icon {
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+    .social-top a {
+      margin-right: 10px;
+      font-size: 22px;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <h1>RIBEIRO ESTOFARIA</h1>
+
+    <div class="social-top">
+      <a href="https://wa.me/5521981326755" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.instagram.com/ribeiro.estofaria/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</header>
+
+<nav id="menu">
+  <a href="index.html">Início</a>
+  <a href="servicos.html">Serviços</a>
+  <a href="galeria.html">Galeria</a>
+  <a href="agendar.html">Agendar Orçamento</a>
+  <a href="sobre.html">Sobre</a>
+</nav>
+
+<section>
+  <div class="conteudo-central">
+    <h2 class="titulo">
+      Olá, somos a <span class="destaque">Ribeiro Estofaria</span>
+    </h2>
+
+    <p>
+      Um pouco sobre nós: A Ribeiro Estofaria atua há mais de 20 anos no mercado, construindo uma história baseada em qualidade, confiança e dedicação.
+Ao longo dessas duas décadas, transformamos estofados em peças que unem conforto, beleza e durabilidade.
+Nosso trabalho vai além da reforma: cuidamos de cada detalhe como se fosse para nossa própria casa.
+Acreditamos que um bom estofado carrega histórias, momentos e memórias.
+Por isso, tratamos cada projeto com respeito e responsabilidade.
+Utilizamos materiais de alta qualidade e técnicas profissionais.
+Nossa equipe é formada por especialistas apaixonados pelo que fazem.
+Cada acabamento é pensado para oferecer o melhor resultado.
+Trabalhamos com sofás, cadeiras, puffs e reformas automotivas.
+Estamos sempre atentos às tendências do mercado.
+Mas sem abrir mão da tradição artesanal.
+Atendemos com transparência e compromisso.
+Nosso maior objetivo é a satisfação do cliente.
+Mais do que estofaria, entregamos confiança.
+Ribeiro Estofaria: tradição que se sente no conforto.
+    </p>
+
+    <img src="imagens/mao.png" alt="Mão grampeando estofado">
+
+    <p>
+      <strong>Horário de funcionamento:</strong><br>
+      Seg a Sex: 08h às 18h<br>
+      Sáb: 08h às 13h
+    </p>
+  </div>
+</section>
+
+</body>
+</html>
+
